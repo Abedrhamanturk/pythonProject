@@ -1,0 +1,6 @@
+my_name=input("Enter your name:")
+my_age=int(input("Enter your age:"))
+my_date=(input("Enter your date"))
+print(my_name)
+print(my_age)
+print(my_date)
