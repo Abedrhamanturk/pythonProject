@@ -3,6 +3,7 @@ def triangle_area(base, height):
     height = float(input("Enter the height of the triangle: "))
     area = 0.5 * base * height
     return area
+
 def circle_area(radius):
     radius = float(input("Enter the radius of the circle: "))
     area = 3.14 * radius * radius
