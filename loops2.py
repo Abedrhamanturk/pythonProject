@@ -15,4 +15,5 @@ for student in range(1, num_students + 1):
     print(f"Max mark for student {student}: {max_mark}")
     print(f"Min mark for student {student}: {min_mark:}")
     print("-" * 40)
-
+x=int(5)
+print(x)
