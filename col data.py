@@ -1,5 +1,4 @@
 products = []
-
 while True:
     selection = int(input("1.Add New Product\n2.Print Product Details"
                           "\n3.Buy Product"
@@ -26,7 +25,6 @@ while True:
             if i['id'] == product_number:
                 print(i)
                 break
-
     elif selection == 3:
         product_number = input("Enter product number to buy: ")
         product_qty_to_buy = int(input("Enter quantity to buy: "))
